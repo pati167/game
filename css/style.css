@@ -1,0 +1,107 @@
+body {
+  background-color: #6f7777;
+  margin: 0;
+}
+/* top part */
+header {
+  border-bottom: 8px solid #f7dead;
+  padding-bottom: 10rem;
+}
+.btnAgain {
+  font-family: "Press Start 2P", cursive;
+  background-color: transparent;
+  border: 5px solid #f7dead;
+  color: #f7dead;
+  font-size: 30px;
+  width: 12rem;
+  height: 4rem;
+  margin: 2rem auto auto 2rem;
+}
+.between {
+  font-family: "Press Start 2P", cursive;
+  color: #f7dead;
+  float: right;
+  font-size: 20px;
+  margin: 3rem 2rem auto auto;
+}
+.number {
+  font-family: "Press Start 2P", cursive;
+  color: #6f7777;
+  text-align: center;
+  font-size: 7rem;
+  background-color: #f7dead;
+  float: left;
+  width: 15rem;
+  padding: 2.5rem 1rem;
+  margin-left: 15rem;
+  transform: translate(-15px, 35%);
+}
+
+.title {
+  font-family: "Press Start 2P", cursive;
+  color: #f7dead;
+  font-size: 40px;
+  margin-bottom: 0;
+  width: 50rem;
+  margin: 0;
+  transform: translate(65%, 150px);
+}
+
+/* bottom parte */
+main {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.decorateContainer {
+  position: relative;
+  float: left;
+  border-right: 8px solid #f7dead;
+  transform: translate(-209px, 90px);
+  padding-bottom: 30.4rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(-120px, 10px);
+}
+.numberBox {
+  font-family: "Press Start 2P", cursive;
+  background-color: transparent;
+  border: 5px solid #f7dead;
+  color: #f7dead;
+  font-size: 3rem;
+  text-align: center;
+  width: 15rem;
+  height: 5rem;
+  padding: 10px 0;
+  margin-top: 10rem;
+}
+
+.btnClick {
+  font-family: "Press Start 2P", cursive;
+  background-color: #f7dead;
+  color: #6f7777;
+  width: 10rem;
+  height: 3.5rem;
+  border: none;
+  margin-top: 2.5rem;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  font-family: "Press Start 2P", cursive;
+  color: #f7dead;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 8rem;
+  transform: translate(-65px, 10px);
+}
+.startGuessing {
+  margin-bottom: 3rem;
+}
