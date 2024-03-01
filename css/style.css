@@ -49,23 +49,27 @@ header {
 
 /* bottom parte */
 main {
+  position: relative;
   display: flex;
   text-align: center;
   justify-content: space-around;
   flex-wrap: nowrap;
 }
 .decorateContainer {
-  position: relative;
+  position: absolute;
   float: left;
+  top: 0;
+  left: 0;
   border-right: 8px solid #f7dead;
-  transform: translate(-209px, 90px);
-  padding-bottom: 30.4rem;
+  transform: translate(-155px, 90px);
+  padding-bottom: 32.2rem;
 }
 .left {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translate(-120px, 10px);
+  transform: translate(-260px, 10px);
 }
 .numberBox {
   font-family: "Press Start 2P", cursive;
@@ -93,6 +97,7 @@ main {
 }
 
 .right {
+  position: absolute;
   display: flex;
   flex-direction: column;
   font-family: "Press Start 2P", cursive;
@@ -100,7 +105,8 @@ main {
   text-align: left;
   font-size: 22px;
   margin-top: 8rem;
-  transform: translate(-65px, 10px);
+  width: 450px;
+  transform: translate(170px, 10px);
 }
 .startGuessing {
   margin-bottom: 3rem;
